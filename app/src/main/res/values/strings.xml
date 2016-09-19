@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">CS Department</string>
+    <string name="about_details">The mission of the Department of Computer Science and Information Systems at SVSU is to provide an outstanding education to its students in accordance with the guidelines of the SVSU mission, to advance scholarship in the key domains of the computing and information systems sciences, and to engage in activities that improve the welfare of society and enhance the reputation of SVSU.</string>
+    <string name="about_list">The department will provide its students with balanced programs which emphasize:\n\n
+
+\u2022 The knowledge of the core principles of computer science\n
+\u2022 The skills necessary to use computers to solve real-world problems\n
+\u2022 Experience in implementing solutions with modern computing tools\n
+\u2022 The communication skills necessary to work effectively in a team\n
+\u2022 Foster a high level of faculty/student interaction and mentoring\n\n
+
+At the end of their programs at SVSU, the department expects CSIS students to be able to:\n\n
+
+\u2022 Solve problems by using skills in math, computer science, and technology\n
+\u2022 Design, implement, document and maintain computer systems\n
+\u2022 Communicate effectively both orally and in writing\n
+\u2022 Understand professional, ethical, legal, security and social issues and responsibilities\n
+\u2022 Apply their knowledge and skills as they start their professional careers\n
+\u2022 Work well both independently and collaboratively with diverse groups\n
+\u2022 Generate new and creative ideas\n\n
+
+After the successful completion of their degree requirements at SVSU:\n\n
+
+\u2022 Graduates shall demonstrate a thorough grounding in the fundamental principles and practices of computing and information systems, and those principles that underpin them.\n
+\u2022 Graduates shall demonstrate an understanding of the contexts in which computing is applied.\n
+\u2022 Graduates shall find employment in the computing profession and/or continue advanced studies in computer science or information systems. </string>
+</resources>
