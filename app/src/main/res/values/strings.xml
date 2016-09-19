@@ -1,5 +1,26 @@
 <resources>
     <string name="app_name">CS Department</string>
+    <string name="details_1">Core Requirements\n
+        CS 105\n
+        CS 146\n
+        CS 116
+    </string>
+    <string name="details_2">Core Requirements\n
+        CS 216\n
+        CIS 255\n
+        CIS 311
+    </string>
+    <string name="details_3">Core Requirements\n
+        CIS 301\n
+        CIS 333\n
+        CIS 355\n
+        CIS 366\n
+        CIS 386
+    </string>
+    <string name="details_4">Core Requirements\n
+        CIS 422\n
+        CIS 424\n
+    </string>
     <string name="about_details">The mission of the Department of Computer Science and Information Systems at SVSU is to provide an outstanding education to its students in accordance with the guidelines of the SVSU mission, to advance scholarship in the key domains of the computing and information systems sciences, and to engage in activities that improve the welfare of society and enhance the reputation of SVSU.</string>
     <string name="about_list">The department will provide its students with balanced programs which emphasize:\n\n
 

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/activity_courses"
     android:layout_width="match_parent"
@@ -8,6 +8,106 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.example.elmclean.csdepartment.Courses">
+    android:columnCount="2"
+    android:rowCount="5"
+    tools:context="com.example.elmclean.csdepartment.Courses"
+    android:layout_alignParentRight="false">
 
-</RelativeLayout>
+    <TextView
+        android:text="Course Sequence"
+        android:textSize="24sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/sequence"
+        android:layout_column="0"
+        android:layout_row="0"
+        android:layout_columnSpan="2"/>
+
+    <TextView
+        android:text="Freshman"
+        android:textSize="24sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/sequence_1"
+        android:layout_column="0"
+        android:layout_row="1"
+        android:layout_columnSpan="1"
+        android:layout_columnWeight="1"/>
+    <TextView
+        android:text="@string/details_1"
+        android:textSize="12sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/details_1"
+        android:layout_column="0"
+        android:layout_row="2"
+        android:layout_columnSpan="1"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"/>
+
+    <TextView
+        android:text="Sophmore"
+        android:textSize="24sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/sequence_2"
+        android:layout_column="1"
+        android:layout_row="1"
+        android:layout_columnSpan="1"
+        android:layout_columnWeight="1"/>
+    <TextView
+        android:text="@string/details_2"
+        android:textSize="12sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/details_3"
+        android:layout_column="1"
+        android:layout_row="2"
+        android:layout_columnSpan="1"
+        android:layout_columnWeight="1"/>
+
+    <TextView
+        android:text="Junior"
+        android:textSize="24sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/sequence_3"
+        android:layout_column="0"
+        android:layout_row="3"
+        android:layout_columnSpan="1"
+        android:layout_columnWeight="1"/>
+    <TextView
+        android:text="@string/details_3"
+        android:textSize="12sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/details_4"
+        android:layout_column="0"
+        android:layout_row="4"
+        android:layout_columnSpan="1"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="8"/>
+
+    <TextView
+        android:text="Senior"
+        android:textSize="24sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/sequence_4"
+        android:layout_column="1"
+        android:layout_row="3"
+        android:layout_columnSpan="1"
+        android:layout_columnWeight="1"/>
+    <TextView
+        android:text="@string/details_4"
+        android:textSize="12sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/details_5"
+        android:layout_column="1"
+        android:layout_row="4"
+        android:layout_columnSpan="1"
+        android:layout_columnWeight="1"/>
+
+
+</GridLayout>
